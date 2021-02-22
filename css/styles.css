@@ -1,0 +1,185 @@
+body {
+  background-color: #a7c5eb;
+  text-align: justify;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h4, h5, h6, p, .p-3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* All text align center alone */
+.Myheaddiv, .p-3, .university, .footer, .Contact_me, .carousel {
+  text-align: center;
+}
+
+/* Styling my navbar */
+.navbar-brand {
+  font-family: 'Yusei Magic', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
+
+.navbar-nav {
+  padding-right: 10px;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+/* Styling my profile */
+.myprofileh2 {
+  color: #a7c5eb;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.Marcos_profile {
+  margin-top: 50px;
+}
+
+.Marcos_profile, .Marcos_experience, .footer {
+  padding: 25px 100px 25px;
+  background-color: #fff;
+}
+
+.image-profile {
+  width: 75%;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h1myprofile, .h1myexperience {
+  color: #a7c5eb;
+  font-weight: bolder;
+}
+
+.shortme, .experience, .catchyskills, .educationsentence, .Contact_me {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styling my skills */
+.Marcos_skills, .Marcos_education {
+  padding: 25px 100px 25px;
+}
+
+.h1myskills, .h1myeducation {
+  color: #3b5998;
+  font-weight: bolder;
+}
+
+.btn-primary {
+  background-color: #3b5998;
+  border-color: #3b5998;
+  width: 175px;
+}
+
+.bi-star-fill, .bi-star-half, .bi-star {
+  color: #3b5998;
+}
+
+.skillname {
+  padding-top: 15px;
+}
+
+/* Styling my experience */
+.company, .companyposition, .studies {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #212529;
+}
+
+/* Styling my education */
+.university_logo {
+  display: block;
+  max-width: 50%;
+  margin: auto;
+}
+
+/* Styling for footer */
+.social_media_logo {
+  max-width: 3%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* My contact me button */
+.btn_ContactMe {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Yusei Magic', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3b5998;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn_ContactMe:hover {
+  background: #a7c5eb;
+  color: #3b5998;
+  text-decoration: none;
+}
+
+/* responsive CSS media */
+@media screen and (max-width: 1200px) {
+  .social_media_logo {
+    max-width: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .social_media_logo {
+    max-width: 8%;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .studies_div {
+    padding-top: 15px;
+  }
+}
+
+/* Just extra for the carousel and links on the initial index website */
+.carousel {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.carousel-h1 {
+  color: #3b5998;
+  font-weight: bolder;
+  line-height: 2;
+  font-size: 5rem;
+}
+
+.carousel-h5 {
+  font-size: 2rem;
+}
+
+.toCV_h2 {
+  color: #3b5998;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding-top: 10px;
+}
+
+.toCV .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.btn_toCV {
+  font-family: 'Yusei Magic', sans-serif;
+  color: #ffffff;
+  background: #3b5998;
+}
