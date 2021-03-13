@@ -122,6 +122,7 @@ h4, h5, h6, p, .p-3 {
   background: #3b5998;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  margin: 0 20px 20px 20px;
 }
 
 .btn_ContactMe:hover {
@@ -131,23 +132,51 @@ h4, h5, h6, p, .p-3 {
 }
 
 /* responsive CSS media */
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1025px) {
   .social_media_logo {
     max-width: 5%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) and (min-width: 801px) {
   .social_media_logo {
-    max-width: 8%;
+    max-width: 6%;
   }
 }
 
-@media screen and (max-width: 775px) {
-  .studies_div {
-    padding-top: 15px;
+@media screen and (max-width: 800px) {
+  .social_media_logo {
+    max-width: 10%;
+  }
+  .companyposition {
+    font-size: medium;
+  }
+  .image-profile {
+    width: 65%;
+  }
+  .position_duties {
+    display: none;
+  }
+  .self_intro {
+    font-size: 0.85rem;
+  }
+  .studies {
+    font-size: 1rem;
+  }
+  .Marcos_profile, .Marcos_experience, .Marcos_education {
+    padding: 25px 40px 25px;
+  }
+  .shortme, .experience, .catchyskills, .educationsentence, .Contact_me {
+    font-size: medium;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .btn_ContactMe {
+    font-size: medium;
+  }
+}
+
 
 /* Just extra for the carousel and links on the initial index website */
 .carousel {
